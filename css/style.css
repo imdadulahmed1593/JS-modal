@@ -1,0 +1,25 @@
+body {
+  background-color: #2b2e4a;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  width: 300px !important;
+  height: 200px !important;
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
